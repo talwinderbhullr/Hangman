@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_green_light"
+    android:visibility="visible">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Score : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTextScore"
+            android:textColor="@android:color/background_dark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvScore"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivStatus"
+        android:scaleType="fitXY"
+        android:saveEnabled="false"
+        android:background="@drawable/hangman6" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Tries : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTextTries"
+            android:textColor="@android:color/background_dark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTries"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Length : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTextLength"
+            android:textColor="@android:color/background_dark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLength"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Used : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTextUsed"
+            android:textColor="@android:color/background_dark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUsed"
+            android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="DUMMY WORD"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:id="@+id/tvWordToGuess"
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center"
+            android:textSize="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnA"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnB"
+            android:layout_weight="0.10"
+            android:inputType="textCapCharacters" />
+        <Button
+            android:text="C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnC"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnD"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnE"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnF"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="G"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnG"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="H"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnH"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="I"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnI"
+            android:layout_weight="0.10" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="J"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnJ"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnK"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnL"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnM"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="N"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnN"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="O"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnO"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="P"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnP"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="Q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnQ"
+            android:layout_weight="0.10" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="R"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnR"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="S"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnS"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="T"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnT"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="U"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnU"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="V"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnV"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="W"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnW"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnX"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="Y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnY"
+            android:layout_weight="0.10" />
+        <Button
+            android:text="Z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnZ"
+            android:layout_weight="0.10" />
+    </LinearLayout>
+    <TextView
+        android:text="by: ATC Students"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvPatentG"
+        android:textSize="5dp"
+        android:textStyle="italic"
+        android:gravity="bottom"
+        android:textColor="@android:color/background_dark" />
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/LLMain"
+    android:weightSum="10"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_green_light">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        android:id="@+id/LL1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+        <TextView
+            android:text="Your score is : "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTextResult"
+            android:layout_weight="3"
+            android:textColor="@android:color/background_dark" />
+        <TextView
+            android:text="DUM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvResult"
+            android:layout_weight="1"
+            android:textColor="@android:color/background_dark" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivResult"
+            android:layout_weight="6"
+            android:scaleType="fitXY"
+            android:background="@drawable/hangman12" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/LL2"
+        android:layout_weight="3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+        <TextView
+            android:text="The Correct Word Is :"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/tvTextCorrectWord"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center" />
+        <TextView
+            android:text="DUM CORRECT WORD"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/tvCorrectWord"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:background="@android:color/background_light" />
+        <TextView
+            android:text="Enter your name below : (Limit to 15 Characters)"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/tvEnterNameTxt"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/tvPName"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:background="@android:color/background_light"
+            android:maxLength="15" />
+        <TextView
+            android:text="SUBMIT"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/tvSubmit"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/LL3"
+        android:layout_weight="3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+        <TextView
+            android:text="MENU"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMenu"
+            android:layout_weight="5"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center" />
+        <TextView
+            android:text="PLAY"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPlayAgain"
+            android:layout_weight="5"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/LL4"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:text="by: ic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPatentS"
+            android:textSize="5dp"
+            android:textStyle="italic"
+            android:gravity="bottom"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

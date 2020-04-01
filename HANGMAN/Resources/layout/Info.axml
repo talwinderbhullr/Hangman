@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_green_light"
+    android:weightSum="1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:weightSum="10"
+        android:layout_weight="2">
+        <TextView
+            android:text="@string/longtxt"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/textView1"
+            android:overScrollMode="always"
+            android:textColor="@android:color/background_dark"
+            android:layout_weight="8" />
+        <TextView
+            android:text="MENU"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tvInfoMenu"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="@android:color/background_dark"
+            android:layout_weight="3" />
+        <TextView
+            android:text="by: ATC Students "
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tvPatentI"
+            android:textSize="5dp"
+            android:textStyle="italic"
+            android:gravity="bottom"
+            android:textColor="@android:color/background_dark"
+            android:layout_weight="1" />
+    </LinearLayout>
+</ScrollView>

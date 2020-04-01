@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">HANGMAN</string>
+  <string name="longtxt">
+    WELCOME!!!
+    This is a team project and is developed by Sharandeep, Talwinder, Amarbir and Kawaldeep. This is our first Andriod Application. We would like to thanks our tutor Bikash Pokhrel for his support and help.
+
+    Rule of the game:
+    You are given a word to guess then you supply a letter after another. You only have 6 tries. If you guessed the word without expiring your 6 tries, then you win. Otherwise, if you consumed all your tries, you lost. Okay, good luck and enjoy! Please press MENU below. Thank You!
+    -  (This is just a sample text to show. ;-D)
+    -------------------------------------------------------------------------------------------------------------------------------------------------------
+  </string>
+</resources>
